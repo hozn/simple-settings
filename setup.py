@@ -16,7 +16,7 @@ try:
 except IOError:
     long_description = description
 
-YAML_REQUIRES = ['PyYAML==3.12']
+YAML_REQUIRES = ['PyYAML==3.13']
 TOML_REQUIRES = ['toml==0.9.3.1']
 DYNAMIC_SETTINGS_REQUIRES = ['jsonpickle==0.9.5']
 REDIS_REQUIRES = ['redis==2.10.6', 'six==1.11.0'] + DYNAMIC_SETTINGS_REQUIRES
